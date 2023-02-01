@@ -119,6 +119,20 @@ const getlocation = (c, x, y) => {
 
 getlocation("C");
 
-const box = () => {};
-// falsy
-// undefined, null, "", 0, false, {}, []
+let arr = [1, 2, 3, 4, 5];
+let result = arr.splice(1, 2);
+console.log(arr);
+console.log(result);
+let plusarry = arr.concat([7, 8]);
+console.log(plusarry);
+
+let users = ["a", "b", "c"];
+users.forEach((item, index, arr) => {
+  console.log(`${index}, ${item}, ${arr}`);
+});
+
+let arryItem = [1, 2, 3, 4, 5];
+let find = arryItem.filter((item) => {
+  return item % 2 === 0;
+});
+console.log("find", find);
