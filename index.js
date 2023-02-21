@@ -217,3 +217,15 @@ const a = Array(5)
   });
 
 console.log(a);
+
+[1, 2, 3, 4].forEach((element) => {
+  console.log(element);
+});
+
+const 과일 = ["바나나", "사과", "수박"];
+const 과일2 = ["딸기", "자두", "복숭아"];
+
+const f = 과일.forEach((과일) => {
+  과일2.push(과일);
+});
+console.log(과일2);
