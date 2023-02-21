@@ -205,9 +205,10 @@ const result = [];
 // for (let i = 0; i < 4; i++) {
 //   result.push(array[i] * 2);
 // }
-array.map((element, i) => {
+const b = array.map((element, i) => {
   return element * 2;
 });
+console.log(b);
 
 const a = Array(5)
   .fill(0)
