@@ -230,6 +230,7 @@ const f = 과일.forEach((과일) => {
 });
 console.log(과일2);
 
+//foreach
 const numbers = [20, 11, 33, 10, 7, 77, 2];
 numbers.forEach((number, index, array) => {
   array[index] = number * 2;
