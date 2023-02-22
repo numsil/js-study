@@ -229,3 +229,10 @@ const f = 과일.forEach((과일) => {
   과일2.push(과일);
 });
 console.log(과일2);
+
+const numbers = [20, 11, 33, 10, 7, 77, 2];
+numbers.forEach((number, index, array) => {
+  array[index] = number * 2;
+});
+
+console.log(numbers);
