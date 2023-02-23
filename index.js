@@ -237,3 +237,6 @@ numbers.forEach((number, index, array) => {
 });
 
 console.log(numbers);
+
+const aa = null;
+console.log(aa);
